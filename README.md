@@ -28,7 +28,7 @@ My home lab simulates a production enterprise identity platform for a fictional 
 ```text
 Domain          IAMPAM.LAB
 Network         172.31.100.0/24
-Entra Tenant    FairmountManufacturing.onmicrosoft.com
+Entra Tenant    FairmontManufacturing.onmicrosoft.com
 Compliance      CMMC Level 2
 ```
 
