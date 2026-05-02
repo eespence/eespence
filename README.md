@@ -94,8 +94,8 @@ Privileged Access Management deep dive — HashiCorp Vault, Delinea Secret Serve
 ### 🔵 [RHEL-PRIVILEGED-ACCESS-ENFORCEMENT](https://github.com/eespence/RHEL-PRIVILEGED-ACCESS-ENFORCEMENT)
 Linux privileged access enforcement — RHEL hardening, Active Directory integration via SSSD and Kerberos, SSH access control, audit logging, and Splunk visibility.
 
-### 🔵 [FAIRMOUNT-MANUFACTURING-IAM-OPERATIONS](https://github.com/eespence/fairmount-manufacturing-iam-operations)
-Full IAM/PAM operations lab for Fairmount Manufacturing LLC. Covers employee onboarding (JOINER lifecycle), incident response, Vault and Delinea PAM governance, Splunk audit validation, AWS SAML federation, and reusable PowerShell automation. CMMC Level 2 aligned.
+### 🔵 [FAIRMONT-MANUFACTURING-IAM-OPERATIONS](https://github.com/eespence/fairmount-manufacturing-iam-operations)
+Full IAM/PAM operations lab for Fairmont Manufacturing LLC. Covers employee onboarding (JOINER lifecycle), incident response, Vault and Delinea PAM governance, Splunk audit validation, AWS SAML federation, and reusable PowerShell automation. CMMC Level 2 aligned.
 
 ---
 
