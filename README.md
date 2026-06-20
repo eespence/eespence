@@ -4,6 +4,7 @@
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![HashiCorp Vault](https://img.shields.io/badge/HashiCorp_Vault-1.16-black?style=flat&logo=vault&logoColor=white)
 ![Delinea](https://img.shields.io/badge/Delinea-Secret_Server-5A2CA0?style=flat)
+![JumpServer](https://img.shields.io/badge/JumpServer-Community_Edition-green?style=flat)
 ![Splunk](https://img.shields.io/badge/Splunk-SIEM-000000?style=flat&logo=splunk&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-SAML_Federation-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ![RHEL](https://img.shields.io/badge/RHEL-Linux_Hardening-EE0000?style=flat&logo=redhat&logoColor=white)
@@ -17,7 +18,7 @@
 
 I build and operate enterprise-grade IAM and PAM environments on real infrastructure. My work covers the full identity lifecycle — from provisioning and access governance to privileged account control, threat detection, and incident response.
 
-Every repository in this profile reflects hands-on engineering executed in a fully operational lab environment — not guided browser exercises. Real Active Directory. Real Entra ID tenant. Real Vault and Delinea deployments. Real Splunk SIEM. Real Linux enforcement.
+Every repository in this profile reflects hands-on engineering executed in a fully operational lab environment — not guided browser exercises. Real Active Directory. Real Microsoft Entra ID. Real HashiCorp Vault deployment. Real Delinea Secret Server deployment. Real JumpServer PAM platform. Real Splunk SIEM. Real Linux access enforcement.
 
 ---
 
@@ -40,6 +41,7 @@ Compliance      CMMC Level 2
 | SIEM01 | Splunk Enterprise |
 | PAMVAULT01 | HashiCorp Vault |
 | DELINEA01 | Delinea Secret Server |
+| JUMPSERVER01 | JumpServer PAM Platform |
 | RHEL01 | Privileged Linux Server |
 
 ---
@@ -50,7 +52,7 @@ Compliance      CMMC Level 2
 Full JOINER → MOVER → LEAVER lifecycle engineering across Active Directory and Microsoft Entra ID. Bulk provisioning with PowerShell error handling, AAD-Sync-Users scope control, group-based RBAC enforcement, and Entra delta sync validation.
 
 **Privileged Access Management**
-HashiCorp Vault LDAP integration, policy-based secret access control, and Delinea Secret Server folder-based RBAC governance. Privileged tier accounts intentionally excluded from Entra ID synchronization per Microsoft Enterprise Access Model — hard boundary between cloud and privileged identity planes enforced by design.
+HashiCorp Vault LDAP integration, Delinea Secret Server credential governance, and JumpServer privileged session management including session brokering, command auditing, session replay, and authorization policy enforcement.
 
 **Hybrid Identity Architecture**
 On-premises Active Directory synchronized to Microsoft Entra ID via Entra Connect. AAD-Sync-Users scoping group controls which identities are eligible for cloud synchronization. AWS SAML federation configured for privileged identity groups through the Entra ID identity plane.
@@ -89,7 +91,7 @@ CMMC Level 2 controls mapped across AC, AU, IR, IA, and CM practice families. Ev
 Enterprise hybrid identity architecture — Active Directory to Microsoft Entra ID synchronization, AWS SAML federation, RBAC governance, and PAM architecture design.
 
 ### 🔵 [IAM-PRIVILEGED-ACCESS-ENGINEERING](https://github.com/eespence/IAM-PRIVILEGED-ACCESS-ENGINEERING)
-Privileged Access Management deep dive — HashiCorp Vault, Delinea Secret Server, Splunk SIEM integration, RBAC enforcement, and Zero Trust architecture principles.
+Privileged Access Management deep dive — HashiCorp Vault, Delinea Secret Server, JumpServer Community Edition, privileged session management, command auditing, RBAC enforcement, Splunk monitoring, and Zero Trust architecture principles.
 
 ### 🔵 [RHEL-PRIVILEGED-ACCESS-ENFORCEMENT](https://github.com/eespence/RHEL-PRIVILEGED-ACCESS-ENFORCEMENT)
 Linux privileged access enforcement — RHEL hardening, Active Directory integration via SSSD and Kerberos, SSH access control, audit logging, and Splunk visibility.
